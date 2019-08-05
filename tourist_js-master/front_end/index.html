@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Different Experience</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        * {
+            background-color: rgb(241, 196, 245);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse ">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a class="navbar-brand" href="#">Tourist Guide</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <div class="container">
+        <pre><h1><u><center><strong>Welcome To Tourist Guide Site</strong></center></u></h1></pre>
+        <ul>
+            <li>
+                <h3> <a href="http://localhost:1234/experience"> Wants to share experience</a></h3>
+            </li>
+            <li>
+                <h3> <a href="http://localhost:1234/read"> Wants to read experience</a></h3>
+            </li>
+            <li>
+                <h3> <a href="http://localhost:1234/info"> Wants the information</a></h3>
+            </li>
+        </ul>
+        <br>
+        <center>
+            <h3><u> Subscribe To Our Channel  </u></h3>
+        </center>
+        <form method="post" action="/subscribe">
+            <div class="form-group">
+                <label>Email</label>
+                <input class="form-control" type="text" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label>Name</label>
+                <input class="form-control" type="text" name="name" placeholder="Name">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
