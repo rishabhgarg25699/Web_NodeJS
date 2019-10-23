@@ -23,7 +23,8 @@ function createProductCard(product) {
             <div class="col row-4 m-3 p-4">
                 <b>Rs. ${product.price}</b>
             </div>
-            <button class="col btn btn-primary m-3">Buy</button> 
+            <button class="col btn btn-primary m-3">Buy</button>
+            <button class="col btn btn-primary m-3">Add To Cart</button> 
         </div>
     </div>`)
 }
